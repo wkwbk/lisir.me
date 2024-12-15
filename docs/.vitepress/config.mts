@@ -60,10 +60,10 @@ export default defineConfig({
     },
 
     // 编辑本页
-    // editLink: {
-    //   pattern: 'https://github.com/wkwbk/blog/edit/main/docs/:path',
-    //   text: '在 GitHub 编辑本页'
-    // },
+    editLink: {
+      pattern: 'https://github.com/wkwbk/wkwbk.github.io/edit/main/docs/:path',
+      text: '在 GitHub 编辑本页'
+    },
 
     // 上次更新时间
     lastUpdated: {
