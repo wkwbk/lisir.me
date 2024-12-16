@@ -1,42 +1,35 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
-# 关闭侧边栏
-sidebar: false
+title: LI SIR
+titleTemplate: 个人博客
 
 # 关闭页脚
 footer: false
 
 hero: 
-  name: VitePress
-  text: "快速上手中文教程"
-  tagline: 如果你也想搭建它，那跟我一起做吧
+  name: LI SIR
+  text: 个人博客
+  tagline: 你的时间花在哪里，你的收获就在哪里
   image:
     src: /logo.png
-    alt: VitePress
+    alt: LI SIR
   actions:
     - theme: brand
       text: 开始
-      link: /getting-started
+      link: /nav
     - theme: alt
       text: GitHub
-      link: https://github.com/vuejs/vitepress
+      link: https://github.com/wkwbk
 
 features: 
   - icon: 📝
-    title: 专注于您的内容
-    details: 只需使用 Markdown 即可轻松创建精美的文档网站
-  - icon: 
-      dark: /logo.png
-      light: /logo-light.png
-    title: 享受Vite DX
-    details: Instant server start, lightning fast hot updates, and leverage Vite ecosystem plugins.
-  - icon: <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"><path fill="#41b883" d="M24.4 3.925H30l-14 24.15L2 3.925h10.71l3.29 5.6 3.22-5.6Z"/><path fill="#41b883" d="m2 3.925 14 24.15 14-24.15h-5.6L16 18.415 7.53 3.925Z"/><path fill="#35495e" d="M7.53 3.925 16 18.485l8.4-14.56h-5.18L16 9.525l-3.29-5.6Z"/></svg>
-    title: 使用 Vue 进行定制
-    details: 直接在 Markdown 中使用 Vue 语法和组件，或使用 Vue 构建自定义主题
-  - icon: 🚀
-    title: 快速发布网站
-    details: 使用静态 HTML 进行快速初始加载，使用客户端路由进行快速加载后导航
+    title: 理论扎实
+    details: 万丈高楼平地起，夯实基础
+  - icon: 📚
+    title: 体系全面
+    details: 拒绝碎片化学习，拒绝一知半解
+  - icon: 📜
+    title: 综合运用
+    details: 整合各个组件，灵活运用，创造价值
 ---
-
