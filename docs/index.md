@@ -16,11 +16,11 @@ hero:
     alt: LI SIR
   actions:
     - theme: brand
-      text: 开始
-      link: /nav
+      text: 开始学习
+      link: /Notes/Git/
     - theme: alt
-      text: GitHub
-      link: https://github.com/wkwbk
+      text: 我的导航
+      link: /nav/
 
 features: 
   - icon: 📝
