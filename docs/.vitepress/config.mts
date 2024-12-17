@@ -2,6 +2,14 @@ import { defineConfig } from 'vitepress'
 import { nav } from './configs'
 import { generateSidebar } from 'vitepress-sidebar';
 import { groupIconMdPlugin, groupIconVitePlugin } from 'vitepress-plugin-group-icons'
+import { RSSOptions, RssPlugin } from 'vitepress-plugin-rss'
+
+const baseUrl = 'https://lisir.me'
+const RSS: RSSOptions = {
+  title: 'LI SIR',
+  baseUrl,
+  copyright: 'Copyright (c) 2021-present, LI SIR',
+}
 
 export default defineConfig({
   cleanUrls: true,
@@ -27,7 +35,8 @@ export default defineConfig({
 
   vite: {
     plugins: [
-      groupIconVitePlugin() //代码组图标
+      groupIconVitePlugin(), //代码组图标
+      RssPlugin(RSS)
     ],
   },
 
