@@ -50,6 +50,22 @@ yarn -v
 
 :::
 
+::: code-group
+
+```sh [pnpm]
+pnpm -v
+```
+
+```sh [yarn]
+yarn -v
+```
+
+```sh [bun]
+bun -v
+```
+
+:::
+
 When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are
 $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 

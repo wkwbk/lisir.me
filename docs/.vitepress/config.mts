@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 import { nav } from './configs'
 import { generateSidebar } from 'vitepress-sidebar';
+import { groupIconMdPlugin, groupIconVitePlugin } from 'vitepress-plugin-group-icons'
 
 export default defineConfig({
   cleanUrls: true,
@@ -19,6 +20,15 @@ export default defineConfig({
       // 开启图片懒加载
       lazyLoading: true,
     },
+    config(md) {
+      md.use(groupIconMdPlugin) //代码组图标
+    },
+  },
+
+  vite: {
+    plugins: [
+      groupIconVitePlugin() //代码组图标
+    ],
   },
 
   // Fav 图标

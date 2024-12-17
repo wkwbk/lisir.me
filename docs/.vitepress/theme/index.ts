@@ -3,6 +3,7 @@ import DefaultTheme from 'vitepress/theme'
 import MNavLinks from './components/MNavLinks.vue'
 import giscusTalk from 'vitepress-plugin-comment-with-giscus';
 import './style/index.css'
+import 'virtual:group-icons.css' //代码组样式
 
 import { h } from 'vue'
 import { useData, useRoute } from 'vitepress'
