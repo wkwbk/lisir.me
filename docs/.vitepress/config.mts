@@ -89,48 +89,51 @@ export default defineConfig({
     sidebar: generateSidebar([
       {
         documentRootPath: '/docs',
-        scanStartPath: '学习笔记',
-        basePath: '/学习笔记/',
-        resolvePath: '/学习笔记/',
-        useTitleFromFileHeading: true,
-        collapsed: false, //折叠组关闭
-        collapseDepth: 2, //折叠组2级菜单
+        scanStartPath: 'Notes',
+        resolvePath: '/Notes/',
+        useTitleFromFileHeading: true, // 从 h1 标签中获取菜单标题
+        collapsed: false, // 折叠组关闭
+        collapseDepth: 2, // 折叠组 2 级菜单
+        useFolderTitleFromIndexFile: true, // 使用当前文件夹的 index.md 文件中的信息来获取菜单名称
+        includeFolderIndexFile: false,  // 关闭在侧边栏菜单中包含文件夹路径 index.md 文件
+        sortMenusByName: true, // 按名称对菜单项中的项目进行排序
+        sortMenusOrderNumericallyFromLink: true, // 如果菜单名称以数字开头，则按数字而不是名称排序
       },
       {
         documentRootPath: '/docs',
-        scanStartPath: '证书考试',
-        basePath: '/证书考试/',
-        resolvePath: '/证书考试/',
+        scanStartPath: 'Exam',
+        resolvePath: '/Exam/',
         useTitleFromFileHeading: true,
-        collapsed: false, //折叠组关闭
-        collapseDepth: 2, //折叠组2级菜单
+        collapsed: false,
+        collapseDepth: 2,
+        useFolderTitleFromIndexFile: true,
+        includeFolderIndexFile: false,
+        sortMenusByName: true,
+        sortMenusOrderNumericallyFromLink: true,
       },
       {
         documentRootPath: '/docs',
-        scanStartPath: '科学上网',
-        basePath: '/科学上网/',
-        resolvePath: '/科学上网/',
+        scanStartPath: 'GFW',
+        resolvePath: '/GFW/',
         useTitleFromFileHeading: true,
-        collapsed: false, //折叠组关闭
-        collapseDepth: 2, //折叠组2级菜单
+        collapsed: false,
+        collapseDepth: 2,
+        useFolderTitleFromIndexFile: true,
+        includeFolderIndexFile: false,
+        sortMenusByName: true,
+        sortMenusOrderNumericallyFromLink: true,
       },
       {
         documentRootPath: '/docs',
-        scanStartPath: '设计模式',
-        basePath: '/设计模式/',
-        resolvePath: '/设计模式/',
+        scanStartPath: 'DP',
+        resolvePath: '/DP/',
         useTitleFromFileHeading: true,
-        collapsed: false, //折叠组关闭
-        collapseDepth: 2, //折叠组2级菜单
-      },
-      {
-        documentRootPath: '/docs',
-        scanStartPath: '薅羊毛',
-        basePath: '/薅羊毛/',
-        resolvePath: '/薅羊毛/',
-        useTitleFromFileHeading: true,
-        collapsed: false, //折叠组关闭
-        collapseDepth: 2, //折叠组2级菜单
+        collapsed: false,
+        collapseDepth: 2,
+        useFolderTitleFromIndexFile: true,
+        includeFolderIndexFile: false,
+        sortMenusByName: true,
+        sortMenusOrderNumericallyFromLink: true,
       },
     ]),
 
