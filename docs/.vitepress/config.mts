@@ -12,6 +12,7 @@ export default defineConfig({
 
   // Markdown 配置
   markdown: {
+    math: true,
     // 行号显示
     lineNumbers: true,
     image: {
